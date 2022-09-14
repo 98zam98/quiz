@@ -11,8 +11,6 @@ const App = () =>{
     const [Score, setScore] = useState(0);
     return(
         <div className='App'>
-            {//<h3>Quiz</h3>
-            }
             <QuizContext.Provider
             value={{
                 Game, setGame, Score, setScore
